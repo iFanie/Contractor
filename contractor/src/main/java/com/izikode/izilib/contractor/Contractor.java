@@ -17,7 +17,7 @@
 
 package com.izikode.izilib.contractor;
 
-class Contractor<Model, View, Presenter> {
+public class Contractor<Model, View, Presenter> {
 
     /* TODO implement so it actually does the SETUP function automatically */
 

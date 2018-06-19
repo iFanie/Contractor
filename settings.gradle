@@ -1,0 +1,1 @@
+include ':app', ':contractor', ':contractor-annotations', ':contractor-compiler'

@@ -40,6 +40,8 @@ interface MainContract {
 ```kotlin
 class MainPresenter : AbstractMainPresenter() {}
 ```
+##### Naming convention
+interface <b>MainContract</b> PLUS interface <i>Model</i> GENERATES Abstract<b>Main</b><i>Model</i>
 #### e. Initialize the Objects and References
 ```kotlin
 val model = MainModel()
@@ -53,11 +55,11 @@ presenter.setup(model).setup(view)
 ``` view() ```
 ``` presenter() ```
 #### f. Optionally, set a target build package
-``` @Contract(target = "com.comepackage") ```
+``` @Contract(target = "com.somepackage") ```
 #### g. Optionally, have your components extend BASE classes
 ```kotlin
 @Contract.Model(base = BaseModel::class)
-    interface Model
+interface Model
 ```
 ## TODO
 - Use javapoet for code generation

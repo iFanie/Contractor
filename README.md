@@ -8,7 +8,7 @@ This library aims to minimize the <b>MVP</b> setup boilerplate code to the minim
 implementation 'com.izikode.izilib:contractor:0.1'
 annotationProcessor 'com.izikode.izilib:contractor:0.1'
 ```
-#### or with kotlin
+##### - or with kotlin
 ```kotlin
 implementation 'com.izikode.izilib:contractor:0.1'
 kapt 'com.izikode.izilib:contractor:0.1'
@@ -40,7 +40,7 @@ interface MainContract {
 ```kotlin
 class MainPresenter : AbstractMainPresenter() {}
 ```
-##### Naming convention
+##### - Naming convention
 interface <b>MainContract</b> PLUS interface <i>Model</i> GENERATES Abstract<b>Main</b><i>Model</i>
 #### e. Initialize the Objects and References
 ```kotlin
@@ -50,7 +50,7 @@ val presenter = MainPresenter()
 
 presenter.setup(model).setup(view)
 ```
-##### <i>Access the references simply through</i>
+##### - Access the references simply through
 ``` model() ```
 ``` view() ```
 ``` presenter() ```

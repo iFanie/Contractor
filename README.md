@@ -2,7 +2,7 @@
 ##### Annotate your MVP Contract interface to automatically generate your component classes
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Development](https://img.shields.io/badge/Stability-Development-green.svg)](https://shields.io/) [![Bintray](https://img.shields.io/badge/Bintray-0.1-lightgrey.svg)](https://dl.bintray.com/ifanie/izilib)
 ## Premise
-This library aims to minimize the <b>MVP</b> setup boilerplate code to the minimum. Decorate your <b>Contract</b> interfaces, build, and extend the generated abstract classes. Your contract funtions will be there, as well as all needed references. The <b>MODEL</b> and the <b>VIEW</b> will contain references to the <b>PRESENTER</b>, and the <b>PRESENTER</b> to both the <b>MODEL</b> and the <b>VIEW</b>. Enhance further by setting Base classes which will be extended by the generated abstract classes.
+This library aims to minimise the <b>MVP</b> setup boilerplate code to the minimum. Decorate your <b>Contract</b> interfaces, build, and extend the generated abstract classes. Your contract functions will be there, as well as all needed references. The <b>MODEL</b> and the <b>VIEW</b> will contain references to the <b>PRESENTER</b>, and the <b>PRESENTER</b> to both the <b>MODEL</b> and the <b>VIEW</b>. Enhance further by setting Base classes which will be extended by the generated abstract classes.
 ### Install
 ```java
 implementation 'com.izikode.izilib:contractor:0.1'
